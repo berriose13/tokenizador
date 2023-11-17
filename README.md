@@ -30,8 +30,12 @@ redis-server
 ### Ejecución del backend
 
 Inicia el servidor de backend en el puerto `3000`:
+cd tokenizador_web
+npm run build
 
-npm start
+Inicia la aplicación backend:
+
+npm run dev
 
 ### Configuración del frontend
 
@@ -39,6 +43,7 @@ Instala las dependencias del frontend:
 
 cd spa-frontend
 npm install
+npm run build
 
 Inicia la aplicación frontend:
 
