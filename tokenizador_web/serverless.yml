@@ -1,0 +1,9 @@
+service: ts-backend
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  tokenizeCard:
+    handler: handler.tokenizeCard
